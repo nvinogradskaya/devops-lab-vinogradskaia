@@ -1,0 +1,31 @@
+site_name: Мой сайт
+site_description: Сайт для курсовой работы
+site_author: Anastasia Vinogradskaia
+site_url: https://anvinogradskaya.github.io/my-personal-site/
+theme:
+  name: material
+  logo: images/image2.png
+  palette:
+    primary: pink 
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+
+nav:
+  - Главная: index.md
+  - О себе: about.md
+  - Проекты: projects.md
+  - Резюме: resume.md
+  - Контакты: contacts.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/anvinogradskaya
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/nnnvvvvvvvin
+  copyright: "© 2026 Anastasia Vinogradskaia"
